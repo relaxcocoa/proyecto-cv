@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto CV</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <style>body {font-family: 'Lato', sans-serif}</style>
+</head>
+
+<body>
+    <div class="full">
+        <div class="left">
+                        <div class="profile_image">
+                 <img src="fotoPerfil.jpg" alt="mi-foto" style="width: 200px;height: 200px;">
+            </div>
+            <div class="contact">
+                <h2>Contacto</h2>
+                <p>1116 Lone Wolf Trail</p>
+                <p>(391) 838-3278</p>
+                <p>walter.mitchell@example.com</p>
+
+            </div>
+            <div class="skills">
+                <h2>Habilidades</h2>
+                <ul class="skills_list description">
+                    <li>Iniciativa</li>
+                    <li>Trabajo bajo presión</li>
+                    <li>Pasión por la cocina</li>
+                    <li>Orden y limpieza</li>
+                    <li>Manejo de planchas y fogones</li>
+                </ul>
+            </div>
+            <div class="language">
+                <h2>Idiomas</h2>
+                <p>Ingles: Nivel Intermedio</p>
+                <p>Español: Nativo</p>
+            </div>
+        </div>
+        
+        <div class="right">
+            <div class="profile">
+                <div class="name">
+                    <h1>Walter Mitchell</h1>
+                </div>
+                <p class="profile_title">Ayudante de Cocina</p>
+                <p class="description">Un graduado de tecnico en ciencias gastronómicas con mucha iniciativa en busca de 
+                    una posición como ayudante de cocina. 
+                   Terminé mis estudios con una nota media de 8,9.</p>
+            </div>
+            <div class="experience">
+                <h2>Experiencia</h2>
+
+                <h3>Ayudante de cocina</h3>
+                <p class="date">Junio 2020 - Actualidad</p>
+                <p class="description">Asigné las responsabilidades diarias y monitoreé el desempeño de los 
+                otros 4 ayudantes de cocina del restaurante.</p>
+                <p class="description">Controlé y gestioné el stock del restaurante, asegurándome de tener 
+                siempre los productos necesarios para la elaboración de los menús.</p>
+
+                <h3>Ayudante de Chef</h3>
+                <p class="date">Enero 2018 - Junio 2020</p>
+                <p class="description">Apoyé al chef principal en la elaboración de más de 50 platillos diarios 
+                para el almuerzo y la cena ofrecidos en el hotel.</p>
+                <p class="description">Elaboré 3 platillos nuevos que se integraron al menú diario del 
+                restaurante del hotel.</p>
+
+                <h3>Pasante de Gastronomia</h3>
+                <p class="date">Mayo 2015 - Diciembre 2017</p>
+                <p class="description">Tuve que lavar y cortar todos los ingredintes en un pequeño restaurente de 100 clientes</p>
+                <p class="description">Controlar la calidad de los ingredientes para las ensaladas</p>
+            </div>
+            <div class="education">
+                <h2>Educacion</h2>
+                <h3>Tecnico en Gastronomia</h3>
+                <p class="date">02/2014 - 12/2015</p>
+            </div>
+            <div class="couses">
+            <h2>Cursos Extra</h2>
+            <h3>Curso de Pasteleria</h3>
+            <p class="date">2015</p>
+            </div>
+        </div>
+    </div>
+
+<!-- JAVASCRIPT -->
+
+<button onclick="print_page();">Imprimir CV</button>
+<script type="text/javascript">
+    function print_page() {
+        window.print();
+    }
+</script>
+</body>
+</html>
